@@ -1,0 +1,3211 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<exchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" units="ft" filename="" filepath="">
+  <batchtest name="Report" internal_name="Report" units="ft">
+    <clashtests>
+      <clashtest name="02.06 Equipment vs Plumbing" test_type="hard" status="old" tolerance="0.000" merge_composites="1">
+        <linkage mode="none"/>
+        <rules>
+          <rule name="Items in same group/block/cell" enabled="1" creator="lcop_clash_adapator_for_lcodpclash_ignore_same_group">
+            <ruleparams/>
+          </rule>
+          <rule name="Items with coincident snap points" enabled="1" creator="lcop_clash_adapator_for_lcodpclash_ignore_coincident_snap_points">
+            <ruleparams/>
+          </rule>
+        </rules>
+        <summary total="64" new="0" active="3" reviewed="7" approved="0" resolved="54">
+          <testtype>Hard</testtype>
+          <teststatus>Old</teststatus>
+        </summary>
+        <clashresults>
+          <clashresult name="Clash109" guid="0f879e62-e2c4-4fa1-b000-bf95086ea14a" status="active">
+            <parentgroup>I-6 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Active</resultstatus>
+            <clashpoint>
+              <pos3f x="217.462" y="-81.353" z="-0.000"/>
+            </clashpoint>
+            <gridlocation>I-6 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="2" day="27" hour="16" minute="27" second="43"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>6915182</value>
+                </objectattribute>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>11557161</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash21" guid="bfba85df-e6ac-429c-a07a-9b42a45cf73c" status="active">
+            <parentgroup>I-6 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Active</resultstatus>
+            <clashpoint>
+              <pos3f x="217.537" y="-81.479" z="8.167"/>
+            </clashpoint>
+            <gridlocation>I-6 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="1" day="28" hour="13" minute="12" second="45"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>6915182</value>
+                </objectattribute>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7303226</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash110" guid="a2fc95d0-fd5b-4ee7-9f7b-5321856d9bef" status="active">
+            <parentgroup>I-6 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Active</resultstatus>
+            <clashpoint>
+              <pos3f x="217.540" y="-81.511" z="-0.000"/>
+            </clashpoint>
+            <gridlocation>I-6 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="2" day="27" hour="16" minute="27" second="43"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>6915182</value>
+                </objectattribute>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>11548845</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash111" guid="f078bd54-7731-4ff0-82d3-89a55991b593" status="active">
+            <parentgroup>New Group</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Active</resultstatus>
+            <clashpoint>
+              <pos3f x="295.255" y="-228.367" z="16.567"/>
+            </clashpoint>
+            <gridlocation>L-1 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="2" day="27" hour="16" minute="27" second="43"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7113988</value>
+                </objectattribute>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>9929766</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash113" guid="50c73557-5bf4-4cde-add7-5aae59f53de8" status="active">
+            <parentgroup>New Group</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Active</resultstatus>
+            <clashpoint>
+              <pos3f x="294.114" y="-229.465" z="14.000"/>
+            </clashpoint>
+            <gridlocation>L-1 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="2" day="27" hour="16" minute="27" second="43"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7113988</value>
+                </objectattribute>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>9929748</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash71" guid="486a4974-b791-44ea-a6c3-421541c48542" status="active">
+            <description>Hard</description>
+            <resultstatus>Active</resultstatus>
+            <clashpoint>
+              <pos3f x="40.147" y="-97.396" z="11.226"/>
+            </clashpoint>
+            <gridlocation>C-5 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="2" day="5" hour="16" minute="48" second="48"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7333398</value>
+                </objectattribute>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>10121092</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash151" guid="948656c3-7962-4b60-8b84-3b6d04ab33ef" status="reviewed">
+            <parentgroup>L-8 : CLEAR HEIGHT_CLEAR HEIGHT</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Reviewed</resultstatus>
+            <clashpoint>
+              <pos3f x="314.061" y="-1.707" z="27.107"/>
+            </clashpoint>
+            <gridlocation>L-8 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="3" day="30" hour="18" minute="0" second="59"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7636598</value>
+                </objectattribute>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>12423387</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash152" guid="52256296-f558-4a9d-a19c-da24b888cee1" status="reviewed">
+            <parentgroup>L-8 : CLEAR HEIGHT_CLEAR HEIGHT</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Reviewed</resultstatus>
+            <clashpoint>
+              <pos3f x="311.144" y="-1.837" z="27.173"/>
+            </clashpoint>
+            <gridlocation>L-8 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="3" day="30" hour="18" minute="0" second="59"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7636598</value>
+                </objectattribute>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>12490934</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash153" guid="f7fcf469-c8ec-420a-95c7-f95970bc0f86" status="reviewed">
+            <parentgroup>L-8 : CLEAR HEIGHT_CLEAR HEIGHT</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Reviewed</resultstatus>
+            <clashpoint>
+              <pos3f x="314.061" y="-1.649" z="27.281"/>
+            </clashpoint>
+            <gridlocation>L-8 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="3" day="30" hour="18" minute="0" second="59"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7636598</value>
+                </objectattribute>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>12490932</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash145" guid="23e0080a-080f-4b55-a70a-37dc1c42ffa3" status="resolved">
+            <parentgroup>L-8 : CLEAR HEIGHT_CLEAR HEIGHT</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="312.504" y="-1.158" z="27.281"/>
+            </clashpoint>
+            <gridlocation>L-8 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="3" day="24" hour="17" minute="28" second="4"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7636598</value>
+                </objectattribute>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>12490943</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash127" guid="640bb789-8845-43c2-b1cd-6a1170bc575a" status="reviewed">
+            <parentgroup>L-8 : LEVEL 2_LEVEL 2</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Reviewed</resultstatus>
+            <clashpoint>
+              <pos3f x="311.144" y="-1.731" z="27.193"/>
+            </clashpoint>
+            <gridlocation>L-8 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="3" day="12" hour="14" minute="55" second="39"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7636598</value>
+                </objectattribute>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>10913495</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash117" guid="b5d302d7-a54d-48b3-9a6d-08060af9a20e" status="resolved">
+            <parentgroup>L-8 : LEVEL 2_LEVEL 2</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="304.561" y="-7.874" z="22.149"/>
+            </clashpoint>
+            <gridlocation>L-8 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="3" day="12" hour="14" minute="55" second="39"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7636598</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash132" guid="bc4bbd8f-b84e-4622-aea5-79aa79cfc31c" status="reviewed">
+            <description>Hard</description>
+            <resultstatus>Reviewed</resultstatus>
+            <clashpoint>
+              <pos3f x="342.825" y="-210.031" z="19.000"/>
+            </clashpoint>
+            <gridlocation>M-2 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="3" day="12" hour="14" minute="55" second="39"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>6876690</value>
+                </objectattribute>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>12121799</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash57" guid="302ed6c4-bf71-4f29-bc21-85c5e4d8ffca" status="reviewed">
+            <parentgroup>A-6 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Reviewed</resultstatus>
+            <clashpoint>
+              <pos3f x="-17.597" y="-92.929" z="-7.021"/>
+            </clashpoint>
+            <gridlocation>A-6 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="1" day="22" hour="12" minute="58" second="51"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>6838606</value>
+                </objectattribute>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>10163731</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash45" guid="8d5a5b70-d61d-4794-88f3-2b9aec9ad819" status="reviewed">
+            <parentgroup>A-6 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Reviewed</resultstatus>
+            <clashpoint>
+              <pos3f x="-17.649" y="-94.289" z="-7.035"/>
+            </clashpoint>
+            <gridlocation>A-6 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="1" day="16" hour="13" minute="19" second="8"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>6838606</value>
+                </objectattribute>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>10174656</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash146" guid="191d29b4-4f28-48d7-b9b4-ad3a34e6fec3" status="reviewed">
+            <description>Hard</description>
+            <resultstatus>Reviewed</resultstatus>
+            <clashpoint>
+              <pos3f x="306.507" y="-228.241" z="1.040"/>
+            </clashpoint>
+            <gridlocation>L-1 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="3" day="24" hour="17" minute="28" second="4"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>6974624</value>
+                </objectattribute>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>12490885</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash142" guid="78b680c5-6e8c-4776-ad62-6db3d28a9c99" status="reviewed">
+            <description>Hard</description>
+            <resultstatus>Reviewed</resultstatus>
+            <clashpoint>
+              <pos3f x="150.993" y="-20.698" z="14.000"/>
+            </clashpoint>
+            <gridlocation>G-7 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="3" day="18" hour="14" minute="46" second="23"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7113992</value>
+                </objectattribute>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>12378994</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash65" guid="7e8660f2-515a-4612-bee8-c711b3f5eea3" status="reviewed">
+            <parentgroup>I-6 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Reviewed</resultstatus>
+            <clashpoint>
+              <pos3f x="211.206" y="-80.909" z="-0.000"/>
+            </clashpoint>
+            <gridlocation>I-6 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="1" day="23" hour="14" minute="35" second="0"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>6915182</value>
+                </objectattribute>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>10421921</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash5" guid="9ce495e3-9736-4ed5-ba86-218859af4508" status="resolved">
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="331.471" y="-30.431" z="14.216"/>
+            </clashpoint>
+            <gridlocation>M-7 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="1" day="7" hour="16" minute="54" second="44"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7113993</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash114" guid="7ec35036-3076-4acd-91e0-be627b1eb827" status="resolved">
+            <parentgroup>M-1 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="333.370" y="-224.025" z="3.000"/>
+            </clashpoint>
+            <gridlocation>M-1 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="3" day="12" hour="14" minute="55" second="39"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>12121806</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash129" guid="8eea2462-98cd-4ac1-9527-af44fa808ce3" status="resolved">
+            <parentgroup>M-1 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="333.774" y="-227.332" z="0.417"/>
+            </clashpoint>
+            <gridlocation>M-1 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="3" day="12" hour="14" minute="55" second="39"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7323412</value>
+                </objectattribute>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>10374698</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash130" guid="fb9a1e5c-9c87-459a-bde9-fff774efbb75" status="resolved">
+            <parentgroup>M-1 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="333.604" y="-227.694" z="0.417"/>
+            </clashpoint>
+            <gridlocation>M-1 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="3" day="12" hour="14" minute="55" second="39"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7323412</value>
+                </objectattribute>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>11525074</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash136" guid="be1ea7e2-4476-4f04-8117-da664b31d0bc" status="resolved">
+            <parentgroup>M-1 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="333.375" y="-227.411" z="0.458"/>
+            </clashpoint>
+            <gridlocation>M-1 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="3" day="12" hour="14" minute="55" second="39"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7323412</value>
+                </objectattribute>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>10374702</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash137" guid="547bde02-1d9b-4636-9acc-894f08f79f05" status="resolved">
+            <parentgroup>M-1 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="345.473" y="-229.478" z="7.760"/>
+            </clashpoint>
+            <gridlocation>M-1 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="3" day="12" hour="14" minute="55" second="39"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>6864271</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash81" guid="656f07a7-6326-43ee-836a-b276fce80f52" status="resolved">
+            <parentgroup>L-8 : LEVEL 2_LEVEL 2</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="304.561" y="-7.938" z="22.387"/>
+            </clashpoint>
+            <gridlocation>L-8 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="2" day="20" hour="12" minute="53" second="41"/>
+            </createddate>
+            <clashobjects/>
+          </clashresult>
+          <clashresult name="Clash86" guid="a9f54383-9c4e-4423-b338-f10aa26b4810" status="resolved">
+            <parentgroup>L-8 : LEVEL 2_LEVEL 2</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="316.087" y="-15.658" z="22.330"/>
+            </clashpoint>
+            <gridlocation>L-8 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="2" day="20" hour="12" minute="53" second="41"/>
+            </createddate>
+            <clashobjects/>
+          </clashresult>
+          <clashresult name="Clash93" guid="5d501072-611e-43a5-8c9f-7328ba592317" status="resolved">
+            <parentgroup>L-8 : LEVEL 2_LEVEL 2</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="304.561" y="-7.877" z="22.249"/>
+            </clashpoint>
+            <gridlocation>L-8 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="2" day="20" hour="12" minute="53" second="41"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>10913495</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash95" guid="4e01c156-330b-4a1b-97e9-df5b348796cd" status="resolved">
+            <parentgroup>L-8 : LEVEL 2_LEVEL 2</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="315.967" y="-15.658" z="22.301"/>
+            </clashpoint>
+            <gridlocation>L-8 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="2" day="20" hour="12" minute="53" second="41"/>
+            </createddate>
+            <clashobjects/>
+          </clashresult>
+          <clashresult name="Clash83" guid="57d9cea1-c603-413c-91d1-04a6b2081332" status="resolved">
+            <parentgroup>H-6 : LEVEL 2_LEVEL 2</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="174.058" y="-97.563" z="19.128"/>
+            </clashpoint>
+            <gridlocation>H-5 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="2" day="20" hour="12" minute="53" second="41"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7113941</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash89" guid="b4bc8af2-a924-4699-a384-b0f02ed91229" status="resolved">
+            <parentgroup>H-6 : LEVEL 2_LEVEL 2</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="174.058" y="-97.517" z="18.977"/>
+            </clashpoint>
+            <gridlocation>H-5 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="2" day="20" hour="12" minute="53" second="41"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7113941</value>
+                </objectattribute>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7956854</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash106" guid="97d35c3c-4d1d-44f7-9b72-430c3befb6fc" status="resolved">
+            <parentgroup>M-1 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="333.828" y="-223.464" z="0.000"/>
+            </clashpoint>
+            <gridlocation>M-1 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="2" day="27" hour="16" minute="27" second="43"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>11525074</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash82" guid="d42379c6-89fa-4582-958e-33a0126bbac7" status="resolved">
+            <parentgroup>M-1 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="333.796" y="-223.275" z="0.000"/>
+            </clashpoint>
+            <gridlocation>M-1 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="2" day="20" hour="12" minute="53" second="41"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>10374698</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash9" guid="93a2edd9-582d-4482-b3de-b0bfd8e92404" status="resolved">
+            <parentgroup>LEVEL 1_L-6 : LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="287.819" y="-60.140" z="11.176"/>
+            </clashpoint>
+            <gridlocation>L-6 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="1" day="7" hour="16" minute="54" second="44"/>
+            </createddate>
+            <clashobjects/>
+          </clashresult>
+          <clashresult name="Clash44" guid="02c7a5f1-5a3a-4a8f-a8a7-3115c60fd02d" status="resolved">
+            <parentgroup>LEVEL 1_L-6 : LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="301.849" y="-62.793" z="11.161"/>
+            </clashpoint>
+            <gridlocation>L-6 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="1" day="16" hour="13" minute="19" second="8"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7113407</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash10" guid="0baa9310-e321-4f4b-a46b-c424441ee293" status="resolved">
+            <parentgroup>L-5 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="287.967" y="-95.883" z="10.992"/>
+            </clashpoint>
+            <gridlocation>L-5 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="1" day="7" hour="16" minute="54" second="44"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7113407</value>
+                </objectattribute>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>8756912</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash43" guid="a5faa92a-673a-4ed0-b37e-70b831707253" status="resolved">
+            <parentgroup>L-5 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="287.967" y="-95.883" z="10.992"/>
+            </clashpoint>
+            <gridlocation>L-5 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2019" month="12" day="30" hour="13" minute="4" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7113407</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash143" guid="d50e21ef-ea64-43ca-a297-e216aacb5b6e" status="resolved">
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="275.066" y="-100.574" z="20.667"/>
+            </clashpoint>
+            <gridlocation>K-5 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="3" day="23" hour="13" minute="28" second="5"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7113940</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash26" guid="cc4806a8-81c4-4828-bef1-cfe1eb9624a1" status="resolved">
+            <parentgroup>B-6 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="-7.063" y="-92.374" z="-13.000"/>
+            </clashpoint>
+            <gridlocation>B-6 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2019" month="12" day="19" hour="13" minute="10" second="32"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>6838605</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash107" guid="60c25534-f340-479d-a69d-ba8caa84bb3f" status="resolved">
+            <parentgroup>N-2 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="353.719" y="-212.833" z="10.861"/>
+            </clashpoint>
+            <gridlocation>N-2 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="2" day="27" hour="16" minute="27" second="43"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>6863475</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash108" guid="b65e246d-a521-437c-9491-153c5419ab54" status="resolved">
+            <parentgroup>N-2 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="353.719" y="-212.585" z="10.891"/>
+            </clashpoint>
+            <gridlocation>N-2 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="2" day="27" hour="16" minute="27" second="43"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>6863475</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash50" guid="293d01e1-2d35-4202-a2b3-8f48dacc3c42" status="resolved">
+            <parentgroup>N-2 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="355.132" y="-211.900" z="9.600"/>
+            </clashpoint>
+            <gridlocation>N-2 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="1" day="22" hour="12" minute="58" second="51"/>
+            </createddate>
+            <clashobjects/>
+          </clashresult>
+          <clashresult name="Clash48" guid="efe52c33-bf26-4343-aacb-e79cf5abc4b8" status="resolved">
+            <parentgroup>M-1 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="333.434" y="-224.025" z="1.318"/>
+            </clashpoint>
+            <gridlocation>M-1 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="1" day="22" hour="12" minute="58" second="51"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>10374809</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash42" guid="93bc0958-d6a0-49f5-b8e4-b8c3ad8544bd" status="resolved">
+            <parentgroup>M-1 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="333.265" y="-224.025" z="1.213"/>
+            </clashpoint>
+            <gridlocation>M-1 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="1" day="7" hour="16" minute="54" second="44"/>
+            </createddate>
+            <clashobjects/>
+          </clashresult>
+          <clashresult name="Clash84" guid="0bc30d71-0d28-48f8-8cfa-fe8a6f0645c5" status="resolved">
+            <parentgroup>M-2 : LEVEL 2_LEVEL 2</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="328.145" y="-210.162" z="20.253"/>
+            </clashpoint>
+            <gridlocation>M-2 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="2" day="20" hour="12" minute="53" second="41"/>
+            </createddate>
+            <clashobjects/>
+          </clashresult>
+          <clashresult name="Clash85" guid="996450e9-b706-4a96-87b8-5f06d1063aa3" status="resolved">
+            <parentgroup>M-2 : LEVEL 2_LEVEL 2</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="324.218" y="-210.054" z="20.264"/>
+            </clashpoint>
+            <gridlocation>M-2 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="2" day="20" hour="12" minute="53" second="41"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7113990</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash64" guid="90ef4b0e-17f8-4ba3-b815-ba9fe55fce82" status="resolved">
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="227.569" y="-65.704" z="7.708"/>
+            </clashpoint>
+            <gridlocation>J-6 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="1" day="28" hour="13" minute="12" second="45"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>6915183</value>
+                </objectattribute>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>8927484</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash120" guid="330ef643-c3a7-4701-ad9a-a06076ebf922" status="resolved">
+            <parentgroup>N-2 : LEVEL 2_LEVEL 2</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="348.451" y="-217.129" z="22.964"/>
+            </clashpoint>
+            <gridlocation>N-2 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="3" day="12" hour="14" minute="55" second="39"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>6861850</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash131" guid="f511240c-aabf-4ef2-9840-9eb7ceda3712" status="resolved">
+            <parentgroup>N-2 : LEVEL 2_LEVEL 2</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="349.597" y="-221.362" z="23.121"/>
+            </clashpoint>
+            <gridlocation>N-2 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="3" day="12" hour="14" minute="55" second="39"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>6861850</value>
+                </objectattribute>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>12115798</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash66" guid="3452f997-71c5-4d1e-ae0a-906c1acf28fd" status="resolved">
+            <parentgroup>J-5 : LEVEL 2_LEVEL 2</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="251.259" y="-111.867" z="20.667"/>
+            </clashpoint>
+            <gridlocation>J-5 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="1" day="28" hour="13" minute="12" second="45"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7113939</value>
+                </objectattribute>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7146400</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash112" guid="03de2a21-ef14-4f57-9d82-fe6c828babd0" status="resolved">
+            <parentgroup>J-5 : LEVEL 2_LEVEL 2</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="251.290" y="-111.888" z="14.000"/>
+            </clashpoint>
+            <gridlocation>J-5 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="2" day="27" hour="16" minute="27" second="43"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7113939</value>
+                </objectattribute>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>11286187</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash87" guid="0d45150d-2b7a-4eb3-b8cc-b3c9a17cdf7a" status="resolved">
+            <parentgroup>K-1 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="276.148" y="-230.453" z="14.000"/>
+            </clashpoint>
+            <gridlocation>K-1 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="2" day="20" hour="12" minute="53" second="41"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7113985</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash88" guid="6f2efbbd-0833-4a7e-b029-173b679037c9" status="resolved">
+            <parentgroup>K-1 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="276.230" y="-230.453" z="14.000"/>
+            </clashpoint>
+            <gridlocation>K-1 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="2" day="20" hour="12" minute="53" second="41"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7113985</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash92" guid="4466da30-ef0d-4852-a441-026cc0276be0" status="resolved">
+            <parentgroup>K-1 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="275.670" y="-235.976" z="14.000"/>
+            </clashpoint>
+            <gridlocation>K-1 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="2" day="20" hour="12" minute="53" second="41"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7113985</value>
+                </objectattribute>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>11139686</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash67" guid="e6f60641-67ee-4497-b460-fe742881abd9" status="resolved">
+            <parentgroup>G-6 : LEVEL 2_LEVEL 2</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="135.388" y="-111.019" z="14.564"/>
+            </clashpoint>
+            <gridlocation>G-5 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="1" day="28" hour="13" minute="12" second="45"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7113939</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash68" guid="721c4e01-05cd-4dd2-b269-82b27e035ff3" status="resolved">
+            <parentgroup>G-6 : LEVEL 2_LEVEL 2</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="138.152" y="-111.019" z="14.564"/>
+            </clashpoint>
+            <gridlocation>G-5 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="1" day="28" hour="13" minute="12" second="45"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7113939</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash69" guid="9c3e2096-8eef-4f1a-aeaa-0336d5151f81" status="resolved">
+            <parentgroup>G-6 : LEVEL 2_LEVEL 2</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="136.412" y="-111.019" z="14.031"/>
+            </clashpoint>
+            <gridlocation>G-5 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="1" day="28" hour="13" minute="12" second="45"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7113939</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash70" guid="6c4b5d4a-fd7c-48f7-97a0-d51e0301ff81" status="resolved">
+            <parentgroup>G-6 : LEVEL 2_LEVEL 2</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="138.680" y="-111.019" z="16.086"/>
+            </clashpoint>
+            <gridlocation>G-5 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="1" day="28" hour="13" minute="12" second="45"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7113939</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash16" guid="7cab819e-8382-4ba1-89d5-f4d37e32ae49" status="resolved">
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="336.721" y="-84.327" z="20.667"/>
+            </clashpoint>
+            <gridlocation>M-6 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="1" day="7" hour="16" minute="54" second="44"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7113994</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash18" guid="ac6530f0-8a99-4187-a66f-6bab1263feca" status="resolved">
+            <parentgroup>L-6 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="287.903" y="-60.640" z="11.240"/>
+            </clashpoint>
+            <gridlocation>L-6 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="1" day="7" hour="16" minute="54" second="44"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7113407</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash25" guid="dd334d25-8add-45fa-864a-205c064a5c40" status="resolved">
+            <parentgroup>L-6 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="301.849" y="-87.877" z="11.157"/>
+            </clashpoint>
+            <gridlocation>L-6 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="1" day="7" hour="16" minute="54" second="44"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7113407</value>
+                </objectattribute>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>8756907</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash76" guid="d3ae8879-1f4a-4d36-bf12-f5acd0dc8ee1" status="resolved">
+            <parentgroup>K-1 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="275.624" y="-235.950" z="14.000"/>
+            </clashpoint>
+            <gridlocation>K-1 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="2" day="12" hour="14" minute="38" second="29"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7113985</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash77" guid="fa9e23de-37a7-4625-910d-2fdf16affe37" status="resolved">
+            <parentgroup>K-1 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="275.712" y="-236.051" z="14.000"/>
+            </clashpoint>
+            <gridlocation>K-1 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="2" day="12" hour="14" minute="38" second="29"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7113985</value>
+                </objectattribute>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>10285805</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash1" guid="c44ee4d4-09f8-455c-a022-4c413050593a" status="resolved">
+            <parentgroup>I-6 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="203.587" y="-105.390" z="0.558"/>
+            </clashpoint>
+            <gridlocation>I-5 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2019" month="11" day="25" hour="15" minute="33" second="47"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>6967588</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash2" guid="e5eb8caf-8771-4d55-a299-b670e05b815e" status="resolved">
+            <parentgroup>I-6 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="202.876" y="-105.487" z="3.937"/>
+            </clashpoint>
+            <gridlocation>I-5 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2019" month="11" day="25" hour="15" minute="33" second="47"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>6967588</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash6" guid="ead8b2fb-d10d-413c-bea5-9eb9cd60cc18" status="resolved">
+            <parentgroup>I-6 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="202.613" y="-105.259" z="0.169"/>
+            </clashpoint>
+            <gridlocation>I-5 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2019" month="11" day="25" hour="15" minute="33" second="47"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>6967588</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash11" guid="453169fa-ef14-4631-aed8-45ce29e03d07" status="resolved">
+            <parentgroup>I-6 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="203.282" y="-104.936" z="0.002"/>
+            </clashpoint>
+            <gridlocation>I-5 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2019" month="11" day="25" hour="15" minute="33" second="47"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>6967588</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash121" guid="9a4bdc97-ca89-4e9a-b55c-cb2fdb35b528" status="resolved">
+            <parentgroup>M-8 : LEVEL 2_LEVEL 2</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="317.061" y="-5.372" z="22.335"/>
+            </clashpoint>
+            <gridlocation>M-8 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="3" day="12" hour="14" minute="55" second="39"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7636598</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash128" guid="c894ee8a-c9b1-416c-aa72-221b23220b70" status="resolved">
+            <parentgroup>M-8 : LEVEL 2_LEVEL 2</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="317.061" y="-5.434" z="22.134"/>
+            </clashpoint>
+            <gridlocation>M-8 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="3" day="12" hour="14" minute="55" second="39"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7636598</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash90" guid="855ff829-b98d-44a5-8acf-80d68076daa6" status="resolved">
+            <parentgroup>N-5 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="350.492" y="-99.512" z="9.750"/>
+            </clashpoint>
+            <gridlocation>N-5 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="2" day="20" hour="12" minute="53" second="41"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>10639091</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash91" guid="ceb99ae2-feaa-41bf-bb08-9a3d79d5e15c" status="resolved">
+            <parentgroup>N-5 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="347.470" y="-104.696" z="10.916"/>
+            </clashpoint>
+            <gridlocation>N-5 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="2" day="20" hour="12" minute="53" second="41"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>11139989</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash98" guid="3851304b-58b4-48e7-abab-be3a1b77543f" status="resolved">
+            <parentgroup>N-5 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="350.581" y="-99.383" z="0.119"/>
+            </clashpoint>
+            <gridlocation>N-5 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="2" day="20" hour="12" minute="53" second="41"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>10639110</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash101" guid="ef867ee3-e733-4054-a539-7716346b2f4d" status="resolved">
+            <parentgroup>N-5 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="350.257" y="-99.705" z="12.011"/>
+            </clashpoint>
+            <gridlocation>N-5 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="2" day="20" hour="12" minute="53" second="41"/>
+            </createddate>
+            <clashobjects/>
+          </clashresult>
+          <clashresult name="Clash104" guid="8b41e90d-8593-44db-8866-156992dbbd8e" status="resolved">
+            <parentgroup>N-5 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="350.487" y="-99.519" z="-0.000"/>
+            </clashpoint>
+            <gridlocation>N-5 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="2" day="20" hour="12" minute="53" second="41"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>6918646</value>
+                </objectattribute>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>10639110</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash105" guid="deb2f489-a5c3-475d-9a8d-3b511db38fe6" status="resolved">
+            <parentgroup>N-5 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="350.494" y="-99.503" z="1.000"/>
+            </clashpoint>
+            <gridlocation>N-5 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="2" day="20" hour="12" minute="53" second="41"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>6918646</value>
+                </objectattribute>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>10639091</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash144" guid="a00764d5-8e6c-492a-8c37-cd5f058414fa" status="resolved">
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="170.101" y="-97.453" z="18.911"/>
+            </clashpoint>
+            <gridlocation>H-5 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="3" day="23" hour="13" minute="28" second="5"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7113941</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash94" guid="4f443bba-378c-48dd-8580-947ed09f2df9" status="resolved">
+            <parentgroup>M-2 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="333.694" y="-219.025" z="5.252"/>
+            </clashpoint>
+            <gridlocation>M-2 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="2" day="20" hour="12" minute="53" second="41"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>11139817</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash75" guid="90306e00-c6d3-4a1c-b5e4-5300a09c2c24" status="resolved">
+            <parentgroup>M-2 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="333.604" y="-219.231" z="5.500"/>
+            </clashpoint>
+            <gridlocation>M-2 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="2" day="5" hour="16" minute="48" second="48"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>10870389</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash100" guid="64b5903a-0380-4a15-906a-a03f56ff4295" status="resolved">
+            <parentgroup>M-2 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="333.824" y="-219.238" z="5.500"/>
+            </clashpoint>
+            <gridlocation>M-2 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="2" day="20" hour="12" minute="53" second="41"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>11140145</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash72" guid="fdf9913a-c372-4bfd-9694-0b12430e565b" status="resolved">
+            <parentgroup>N-5 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="349.949" y="-100.005" z="11.994"/>
+            </clashpoint>
+            <gridlocation>N-5 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="2" day="5" hour="16" minute="48" second="48"/>
+            </createddate>
+            <clashobjects/>
+          </clashresult>
+          <clashresult name="Clash74" guid="d590cc89-5ef7-478a-bfb1-0b660176b9e9" status="resolved">
+            <parentgroup>N-5 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="347.480" y="-104.678" z="10.825"/>
+            </clashpoint>
+            <gridlocation>N-5 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="2" day="5" hour="16" minute="48" second="48"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>10707716</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash49" guid="0b4f9589-f515-424f-970b-b6f6e4252206" status="resolved">
+            <parentgroup>M-2 : LEVEL 2_LEVEL 2</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="328.218" y="-210.129" z="20.371"/>
+            </clashpoint>
+            <gridlocation>M-2 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="1" day="22" hour="12" minute="58" second="51"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7113990</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash51" guid="75f9632a-373d-4134-8751-f1533ccb5287" status="resolved">
+            <parentgroup>M-2 : LEVEL 2_LEVEL 2</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="328.145" y="-210.085" z="20.433"/>
+            </clashpoint>
+            <gridlocation>M-2 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="1" day="22" hour="12" minute="58" second="51"/>
+            </createddate>
+            <clashobjects/>
+          </clashresult>
+          <clashresult name="Clash52" guid="12a890c6-4c94-49e3-9526-881af671b233" status="resolved">
+            <parentgroup>M-2 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="333.615" y="-219.025" z="5.317"/>
+            </clashpoint>
+            <gridlocation>M-2 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="1" day="22" hour="12" minute="58" second="51"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>10354398</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash53" guid="4c7101f4-e0e5-46f9-a31d-b9d95e74f069" status="resolved">
+            <parentgroup>M-2 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="333.729" y="-219.025" z="2.329"/>
+            </clashpoint>
+            <gridlocation>M-2 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="1" day="22" hour="12" minute="58" second="51"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>8575791</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash54" guid="10539fb3-1a9d-447e-b65e-f9795194b145" status="resolved">
+            <parentgroup>M-2 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="333.556" y="-219.025" z="2.838"/>
+            </clashpoint>
+            <gridlocation>M-2 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="1" day="22" hour="12" minute="58" second="51"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>11138742</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash55" guid="61584855-8e33-495c-b0b0-c669102fa398" status="resolved">
+            <parentgroup>M-2 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="333.513" y="-219.025" z="2.838"/>
+            </clashpoint>
+            <gridlocation>M-2 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="1" day="22" hour="12" minute="58" second="51"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>11138750</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash61" guid="0bf9a7cb-2e34-450b-9d1b-7c5dbac2c720" status="resolved">
+            <parentgroup>M-2 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="333.711" y="-219.196" z="5.500"/>
+            </clashpoint>
+            <gridlocation>M-2 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="1" day="22" hour="12" minute="58" second="51"/>
+            </createddate>
+            <clashobjects/>
+          </clashresult>
+          <clashresult name="Clash62" guid="f1ca5ab3-6442-4d1b-bcec-b4d1d410b4f4" status="resolved">
+            <parentgroup>M-2 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="333.604" y="-219.025" z="2.917"/>
+            </clashpoint>
+            <gridlocation>M-2 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="1" day="22" hour="12" minute="58" second="51"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>8223087</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash63" guid="8fd58aae-0d0b-40b4-b8fe-8bc9c2966aec" status="resolved">
+            <parentgroup>M-2 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="333.682" y="-219.025" z="1.677"/>
+            </clashpoint>
+            <gridlocation>M-2 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="1" day="22" hour="12" minute="58" second="51"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7940853</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash27" guid="a7232b85-8214-483f-a5e8-3ab2b3abea1a" status="resolved">
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="-7.631" y="-94.623" z="-4.500"/>
+            </clashpoint>
+            <gridlocation>B-6 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="1" day="7" hour="16" minute="54" second="44"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>6838605</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash30" guid="8de1b12d-925b-496c-a560-d8699560f121" status="resolved">
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="294.116" y="-167.978" z="10.000"/>
+            </clashpoint>
+            <gridlocation>L-3 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="1" day="7" hour="16" minute="54" second="44"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7113406</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash96" guid="0f6313b4-4aa5-4f0d-b81b-97e7d00a1c68" status="resolved">
+            <parentgroup>M-8 : LEVEL 2_LEVEL 2</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="318.103" y="-8.581" z="22.121"/>
+            </clashpoint>
+            <gridlocation>M-8 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="2" day="20" hour="12" minute="53" second="41"/>
+            </createddate>
+            <clashobjects/>
+          </clashresult>
+          <clashresult name="Clash97" guid="1f69e9f0-fe57-4973-b33e-4f0a291dc167" status="resolved">
+            <parentgroup>M-8 : LEVEL 2_LEVEL 2</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="318.103" y="-8.532" z="22.302"/>
+            </clashpoint>
+            <gridlocation>M-8 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="2" day="20" hour="12" minute="53" second="41"/>
+            </createddate>
+            <clashobjects/>
+          </clashresult>
+          <clashresult name="Clash56" guid="d65ebb1e-6109-4ec1-968f-55b279c318ef" status="resolved">
+            <parentgroup>M-8 : LEVEL 2_LEVEL 2</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="318.902" y="-14.644" z="15.167"/>
+            </clashpoint>
+            <gridlocation>M-8 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="1" day="22" hour="12" minute="58" second="51"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7024574</value>
+                </objectattribute>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>9228045</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash3" guid="e95b5bd6-a791-44e7-a233-d13c4bf53873" status="resolved">
+            <parentgroup>B-6 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="-7.240" y="-97.909" z="-11.471"/>
+            </clashpoint>
+            <gridlocation>B-5 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2019" month="11" day="25" hour="15" minute="33" second="47"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>6838606</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash4" guid="0f27747a-07ad-4f61-9c35-848ed1da036a" status="resolved">
+            <parentgroup>B-6 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="-14.650" y="-99.430" z="-7.032"/>
+            </clashpoint>
+            <gridlocation>B-5 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2019" month="11" day="25" hour="15" minute="33" second="47"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>6838605</value>
+                </objectattribute>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7473917</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash7" guid="f8534212-5ce1-44a2-8e93-4755e3e0d2c0" status="resolved">
+            <parentgroup>B-6 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="-7.219" y="-92.490" z="-11.469"/>
+            </clashpoint>
+            <gridlocation>B-6 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2019" month="11" day="25" hour="15" minute="33" second="47"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>6838606</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash8" guid="a4e29db3-2d3d-4dfb-b668-d609371895b3" status="resolved">
+            <parentgroup>B-6 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="-14.739" y="-92.398" z="-11.446"/>
+            </clashpoint>
+            <gridlocation>B-6 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2019" month="11" day="25" hour="15" minute="33" second="47"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>6838605</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash13" guid="6c84ecef-e06d-47a3-a75a-714edd66cb54" status="resolved">
+            <parentgroup>B-6 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="-9.149" y="-98.054" z="-16.052"/>
+            </clashpoint>
+            <gridlocation>B-5 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2019" month="11" day="25" hour="15" minute="33" second="47"/>
+            </createddate>
+            <clashobjects/>
+          </clashresult>
+          <clashresult name="Clash17" guid="69ba8a57-90c5-47e2-9a6d-099f1355ee69" status="resolved">
+            <parentgroup>B-6 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="-15.316" y="-92.305" z="-16.052"/>
+            </clashpoint>
+            <gridlocation>B-6 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2019" month="11" day="25" hour="15" minute="33" second="47"/>
+            </createddate>
+            <clashobjects/>
+          </clashresult>
+          <clashresult name="Clash19" guid="367c5dc4-2e4d-4964-8e93-e7bf127772f3" status="resolved">
+            <parentgroup>B-6 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="-15.316" y="-97.805" z="-16.052"/>
+            </clashpoint>
+            <gridlocation>B-5 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2019" month="11" day="25" hour="15" minute="33" second="47"/>
+            </createddate>
+            <clashobjects/>
+          </clashresult>
+          <clashresult name="Clash20" guid="6653e681-1798-48aa-b11b-51ba3a4f44d3" status="resolved">
+            <parentgroup>B-6 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="-7.816" y="-97.805" z="-16.052"/>
+            </clashpoint>
+            <gridlocation>B-5 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2019" month="11" day="25" hour="15" minute="33" second="47"/>
+            </createddate>
+            <clashobjects/>
+          </clashresult>
+          <clashresult name="Clash22" guid="8f92eda2-4dd8-44da-83e2-1988388d342d" status="resolved">
+            <parentgroup>B-6 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="-6.909" y="-99.430" z="-7.181"/>
+            </clashpoint>
+            <gridlocation>B-5 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2019" month="12" day="11" hour="19" minute="5" second="18"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>6838606</value>
+                </objectattribute>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7473917</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash23" guid="56a7a94c-6812-457d-afd6-58243e6ffb3b" status="resolved">
+            <parentgroup>B-6 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="-14.201" y="-99.430" z="-5.616"/>
+            </clashpoint>
+            <gridlocation>B-5 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2019" month="12" day="11" hour="19" minute="5" second="18"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>6838605</value>
+                </objectattribute>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7474312</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash24" guid="c4faecbd-33e0-47a6-be27-9176779cb804" status="resolved">
+            <parentgroup>B-6 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="-14.409" y="-99.430" z="-5.702"/>
+            </clashpoint>
+            <gridlocation>B-5 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2019" month="12" day="11" hour="19" minute="5" second="18"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>6838605</value>
+                </objectattribute>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7473912</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash58" guid="59925f4b-22fb-478d-9096-c8460d285be7" status="resolved">
+            <parentgroup>K-1 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="276.248" y="-230.547" z="14.000"/>
+            </clashpoint>
+            <gridlocation>K-1 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="1" day="22" hour="12" minute="58" second="51"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7113985</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash59" guid="6ac21913-e062-4d6f-a08d-ad31e4ebc86c" status="resolved">
+            <parentgroup>K-1 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="276.166" y="-230.547" z="14.000"/>
+            </clashpoint>
+            <gridlocation>K-1 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="1" day="22" hour="12" minute="58" second="51"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7113985</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash28" guid="2ac4ad20-3652-4705-b4a5-b42f40135175" status="resolved">
+            <parentgroup>L-2 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="299.160" y="-211.561" z="10.449"/>
+            </clashpoint>
+            <gridlocation>L-2 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2019" month="12" day="19" hour="13" minute="10" second="32"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7019401</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash29" guid="5af335d5-515f-4c77-a932-41ba58afa4db" status="resolved">
+            <parentgroup>L-2 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="297.790" y="-209.700" z="11.083"/>
+            </clashpoint>
+            <gridlocation>L-2 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2019" month="12" day="19" hour="13" minute="10" second="32"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7019401</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash36" guid="86c92848-4312-44af-8a73-6b8ac1cf17af" status="resolved">
+            <parentgroup>L-2 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="298.467" y="-209.584" z="10.939"/>
+            </clashpoint>
+            <gridlocation>L-2 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2019" month="12" day="19" hour="13" minute="10" second="32"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7019401</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash37" guid="230f992f-2bd6-44c5-8bdd-bb8247014281" status="resolved">
+            <parentgroup>L-2 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="296.814" y="-209.870" z="10.992"/>
+            </clashpoint>
+            <gridlocation>L-2 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2019" month="12" day="19" hour="13" minute="10" second="32"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7019401</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash147" guid="c792f523-40a2-44d3-abe6-93513dc78378" status="resolved">
+            <parentgroup>N-1 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="353.801" y="-223.275" z="11.441"/>
+            </clashpoint>
+            <gridlocation>N-1 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="3" day="27" hour="14" minute="45" second="56"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>6863475</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash148" guid="9c3135b2-cac1-4c04-a4a0-cab1c9585faf" status="resolved">
+            <parentgroup>N-1 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="353.518" y="-227.082" z="11.454"/>
+            </clashpoint>
+            <gridlocation>N-1 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="3" day="27" hour="14" minute="45" second="56"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>6836386</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash149" guid="c6f5a696-631a-46b3-88d6-57ce7df12dc2" status="resolved">
+            <parentgroup>N-1 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="353.678" y="-226.988" z="11.555"/>
+            </clashpoint>
+            <gridlocation>N-1 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="3" day="27" hour="14" minute="45" second="56"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>6836386</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash150" guid="759de478-23e4-4033-9b90-9dab789117f7" status="resolved">
+            <parentgroup>N-1 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="353.724" y="-223.275" z="11.509"/>
+            </clashpoint>
+            <gridlocation>N-1 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="3" day="27" hour="14" minute="45" second="56"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>6863475</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash73" guid="59afa536-1d77-47b5-8773-38c0080977b2" status="resolved">
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="346.398" y="-103.597" z="12.250"/>
+            </clashpoint>
+            <gridlocation>M-5 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="2" day="5" hour="16" minute="48" second="48"/>
+            </createddate>
+            <clashobjects/>
+          </clashresult>
+          <clashresult name="Clash115" guid="657a1907-7eb5-4c00-9d8c-50a58abe3a90" status="resolved">
+            <parentgroup>M-8 : LEVEL 2_LEVEL 2</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="318.103" y="-4.708" z="22.442"/>
+            </clashpoint>
+            <gridlocation>M-8 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="2" day="27" hour="16" minute="27" second="43"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>11496826</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash116" guid="7214884b-02c1-49bd-be17-1e9ab8ef308c" status="resolved">
+            <parentgroup>M-8 : LEVEL 2_LEVEL 2</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="318.103" y="-4.708" z="22.446"/>
+            </clashpoint>
+            <gridlocation>M-8 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="2" day="27" hour="16" minute="27" second="43"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>11496837</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash118" guid="dee1570b-b5de-4443-940d-8dfac0058193" status="resolved">
+            <parentgroup>M-8 : LEVEL 2_LEVEL 2</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="318.103" y="-5.322" z="22.219"/>
+            </clashpoint>
+            <gridlocation>M-8 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="2" day="27" hour="16" minute="27" second="43"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>11496829</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash119" guid="60099a48-58e4-4d3e-b096-3eefdbebb29f" status="resolved">
+            <parentgroup>M-8 : LEVEL 2_LEVEL 2</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="318.103" y="-5.259" z="22.478"/>
+            </clashpoint>
+            <gridlocation>M-8 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="2" day="27" hour="16" minute="27" second="43"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>11496834</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash122" guid="1534e79d-ba90-4cda-89b9-fb91ffe44643" status="resolved">
+            <parentgroup>M-8 : LEVEL 2_LEVEL 2</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="318.103" y="-4.784" z="22.330"/>
+            </clashpoint>
+            <gridlocation>M-8 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="2" day="27" hour="16" minute="27" second="43"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>11496835</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash123" guid="b99b607b-12a1-4981-8a3d-94bb961d325a" status="resolved">
+            <parentgroup>M-8 : LEVEL 2_LEVEL 2</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="318.103" y="-4.708" z="22.325"/>
+            </clashpoint>
+            <gridlocation>M-8 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="2" day="27" hour="16" minute="27" second="43"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>11496827</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash124" guid="7cc5ef00-4664-4697-8e38-7039858ee0f9" status="resolved">
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="346.999" y="-220.126" z="24.083"/>
+            </clashpoint>
+            <gridlocation>N-2 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="3" day="3" hour="18" minute="41" second="41"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>6861850</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash99" guid="4dc6cdf4-060a-4cc3-b80c-cfa11db38149" status="resolved">
+            <parentgroup>K-1 : LEVEL 2_LEVEL 2</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="276.039" y="-236.121" z="20.667"/>
+            </clashpoint>
+            <gridlocation>K-1 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="2" day="20" hour="12" minute="53" second="41"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7113985</value>
+                </objectattribute>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>11139688</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash102" guid="25e7a231-c9c5-4070-aaf0-02f43062300f" status="resolved">
+            <parentgroup>K-1 : LEVEL 2_LEVEL 2</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="276.039" y="-236.135" z="20.667"/>
+            </clashpoint>
+            <gridlocation>K-1 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="2" day="20" hour="12" minute="53" second="41"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7113985</value>
+                </objectattribute>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>11139684</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash32" guid="76a7f9ba-19ac-4aaf-bba8-73572a390267" status="resolved">
+            <parentgroup>E-6 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="74.336" y="-100.078" z="2.242"/>
+            </clashpoint>
+            <gridlocation>E-5 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2019" month="12" day="19" hour="13" minute="10" second="32"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>6904247</value>
+                </objectattribute>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>8617514</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash33" guid="d17cbb1c-aa35-40ed-a90a-9896de276095" status="resolved">
+            <parentgroup>L-2 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="297.790" y="-209.700" z="11.083"/>
+            </clashpoint>
+            <gridlocation>L-2 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="1" day="7" hour="16" minute="54" second="44"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7019401</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash34" guid="c93ad01f-2b52-4b5e-b973-4d07977f0e1d" status="resolved">
+            <parentgroup>L-2 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="297.790" y="-209.658" z="11.089"/>
+            </clashpoint>
+            <gridlocation>L-2 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="1" day="7" hour="16" minute="54" second="44"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7019401</value>
+                </objectattribute>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>8756857</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash38" guid="c652dc76-7912-4999-aa9a-9b3e56b14288" status="resolved">
+            <parentgroup>L-2 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="297.688" y="-209.609" z="11.101"/>
+            </clashpoint>
+            <gridlocation>L-2 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="1" day="7" hour="16" minute="54" second="44"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7019401</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash41" guid="1ec1eed7-43f4-4c0a-907d-f51249458663" status="resolved">
+            <parentgroup>L-2 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="297.743" y="-209.483" z="11.069"/>
+            </clashpoint>
+            <gridlocation>L-2 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="1" day="7" hour="16" minute="54" second="44"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7019401</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash31" guid="96218664-819e-424d-9aab-29428ae9972e" status="resolved">
+            <parentgroup>I-6 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="204.058" y="-100.249" z="2.032"/>
+            </clashpoint>
+            <gridlocation>I-5 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2019" month="12" day="19" hour="13" minute="10" second="32"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>6915170</value>
+                </objectattribute>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>8595114</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash78" guid="56e8f099-b970-43b3-8d9b-5a49b46641a9" status="resolved">
+            <parentgroup>K-1 : LEVEL 2_LEVEL 2</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="276.039" y="-236.108" z="20.667"/>
+            </clashpoint>
+            <gridlocation>K-1 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="2" day="12" hour="14" minute="38" second="29"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7113985</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash79" guid="ed333284-4065-4bfd-a871-5d4595706acf" status="resolved">
+            <parentgroup>K-1 : LEVEL 2_LEVEL 2</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="276.039" y="-236.200" z="20.667"/>
+            </clashpoint>
+            <gridlocation>K-1 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="2" day="12" hour="14" minute="38" second="29"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7113985</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash80" guid="03f5d108-a031-48c4-971a-36acce478256" status="resolved">
+            <parentgroup>K-1 : LEVEL 2_LEVEL 2</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="275.661" y="-236.097" z="20.667"/>
+            </clashpoint>
+            <gridlocation>K-1 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="2" day="12" hour="14" minute="38" second="29"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7113985</value>
+                </objectattribute>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>10285804</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash133" guid="d183fa50-0104-4358-979e-b613905d3328" status="resolved">
+            <parentgroup>L-2 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="311.959" y="-218.304" z="8.120"/>
+            </clashpoint>
+            <gridlocation>L-2 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="3" day="12" hour="14" minute="55" second="39"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7030240</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash134" guid="55473a92-959c-4365-8544-829ffb393bdf" status="resolved">
+            <parentgroup>L-2 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="299.544" y="-211.306" z="7.896"/>
+            </clashpoint>
+            <gridlocation>L-2 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="3" day="12" hour="14" minute="55" second="39"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7019401</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash135" guid="1262ee73-1190-4e2a-9aba-a67b4d2e1ade" status="resolved">
+            <parentgroup>L-2 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="299.385" y="-211.051" z="11.571"/>
+            </clashpoint>
+            <gridlocation>L-2 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="3" day="12" hour="14" minute="55" second="39"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7019401</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash138" guid="fd7fe38c-6eeb-423a-9107-d85f7d3c3bd3" status="resolved">
+            <parentgroup>L-2 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="299.562" y="-211.062" z="11.524"/>
+            </clashpoint>
+            <gridlocation>L-2 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="3" day="12" hour="14" minute="55" second="39"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7019401</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash139" guid="90d8b41c-7170-4c19-be54-7bd820095fd5" status="resolved">
+            <parentgroup>L-2 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="299.559" y="-211.216" z="9.956"/>
+            </clashpoint>
+            <gridlocation>L-2 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="3" day="18" hour="14" minute="46" second="23"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7019401</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash140" guid="d9b53e91-3c62-4f91-9676-19f1654b9f9b" status="resolved">
+            <parentgroup>L-2 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="311.827" y="-218.324" z="9.265"/>
+            </clashpoint>
+            <gridlocation>L-2 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="3" day="18" hour="14" minute="46" second="23"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7030240</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash141" guid="01ef2317-2470-4b1f-9b67-f6dd2ad0d833" status="resolved">
+            <parentgroup>L-2 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="311.878" y="-216.456" z="10.908"/>
+            </clashpoint>
+            <gridlocation>L-2 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="3" day="18" hour="14" minute="46" second="23"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7030240</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash46" guid="fc36fde3-d13f-49a4-a3da-77a6f0b136e0" status="resolved">
+            <parentgroup>L-2 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="298.458" y="-209.581" z="10.943"/>
+            </clashpoint>
+            <gridlocation>L-2 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="1" day="16" hour="13" minute="19" second="8"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7019401</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash60" guid="7b4e3608-0bda-40aa-b96b-6f0b96c0e56a" status="resolved">
+            <parentgroup>L-2 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="299.452" y="-211.003" z="11.533"/>
+            </clashpoint>
+            <gridlocation>L-2 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="1" day="22" hour="12" minute="58" second="51"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7019401</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash35" guid="d0c96066-593f-48dd-bfe0-c2c0be3286c4" status="resolved">
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="74.295" y="-100.135" z="2.792"/>
+            </clashpoint>
+            <gridlocation>E-5 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="1" day="7" hour="16" minute="54" second="44"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>6904247</value>
+                </objectattribute>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>8617436</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash39" guid="c837c322-32af-43d4-94a1-b632bf4a3a5e" status="resolved">
+            <parentgroup>I-6 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="203.975" y="-100.247" z="1.496"/>
+            </clashpoint>
+            <gridlocation>I-5 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="1" day="7" hour="16" minute="54" second="44"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>6915170</value>
+                </objectattribute>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>8536271</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash40" guid="a92b2311-a3c3-40fd-b10c-14c5acf3c392" status="resolved">
+            <parentgroup>I-6 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="204.058" y="-100.219" z="2.140"/>
+            </clashpoint>
+            <gridlocation>I-5 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="1" day="7" hour="16" minute="54" second="44"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>6915170</value>
+                </objectattribute>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>8595112</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash103" guid="9a8fc64b-3673-4c82-bc5e-f0a5c825b65f" status="resolved">
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="166.046" y="-69.986" z="3.640"/>
+            </clashpoint>
+            <gridlocation>H-6 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="2" day="20" hour="12" minute="53" second="41"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>6915122</value>
+                </objectattribute>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>11159048</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash125" guid="b31b7b36-e4ab-45fb-903c-48afba7a5f66" status="resolved">
+            <parentgroup>G-6 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="147.603" y="-78.140" z="3.000"/>
+            </clashpoint>
+            <gridlocation>G-6 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="3" day="3" hour="18" minute="41" second="41"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>6953161</value>
+                </objectattribute>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>11699503</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash126" guid="265cf787-a8c4-4271-bff9-cf434f60bbeb" status="resolved">
+            <parentgroup>G-6 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="147.362" y="-78.248" z="1.000"/>
+            </clashpoint>
+            <gridlocation>G-6 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="3" day="5" hour="14" minute="26" second="59"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>6953161</value>
+                </objectattribute>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>11699509</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash47" guid="c0fe2501-6789-4e4b-8cb0-001a02719284" status="resolved">
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="322.127" y="-157.715" z="-0.0000000000000533"/>
+            </clashpoint>
+            <gridlocation>M-4 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2019" month="12" day="30" hour="13" minute="4" second="58"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>7113406</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash12" guid="989fe710-9171-49a5-a6ee-c5ce3f271406" status="resolved">
+            <parentgroup>M-1 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="333.361" y="-225.025" z="1.213"/>
+            </clashpoint>
+            <gridlocation>M-1 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2019" month="11" day="25" hour="15" minute="33" second="47"/>
+            </createddate>
+            <clashobjects/>
+          </clashresult>
+          <clashresult name="Clash14" guid="10db9784-25b9-42e5-bd95-00e352e2737f" status="resolved">
+            <parentgroup>A-6 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="-16.649" y="-98.054" z="-16.052"/>
+            </clashpoint>
+            <gridlocation>A-5 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2019" month="11" day="25" hour="15" minute="33" second="47"/>
+            </createddate>
+            <clashobjects/>
+          </clashresult>
+          <clashresult name="Clash15" guid="694c1d43-bc49-4560-b28e-54744b434865" status="resolved">
+            <parentgroup>A-6 : LEVEL 1_LEVEL 1</parentgroup>
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="-16.649" y="-92.575" z="-16.000"/>
+            </clashpoint>
+            <gridlocation>A-6 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2019" month="11" day="25" hour="15" minute="33" second="47"/>
+            </createddate>
+            <clashobjects/>
+          </clashresult>
+        </clashresults>
+      </clashtest>
+    </clashtests>
+    <selectionsets/>
+  </batchtest>
+</exchange>

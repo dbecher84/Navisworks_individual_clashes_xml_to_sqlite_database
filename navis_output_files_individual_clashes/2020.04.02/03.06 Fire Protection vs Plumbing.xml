@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<exchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" units="ft" filename="" filepath="">
+  <batchtest name="Report" internal_name="Report" units="ft">
+    <clashtests>
+      <clashtest name="03.06 Fire Protection vs Plumbing" test_type="hard" status="old" tolerance="0.000" merge_composites="1">
+        <linkage mode="none"/>
+        <rules>
+          <rule name="Items in same group/block/cell" enabled="1" creator="lcop_clash_adapator_for_lcodpclash_ignore_same_group">
+            <ruleparams/>
+          </rule>
+          <rule name="Items with coincident snap points" enabled="1" creator="lcop_clash_adapator_for_lcodpclash_ignore_coincident_snap_points">
+            <ruleparams/>
+          </rule>
+        </rules>
+        <summary total="2" new="0" active="1" reviewed="0" approved="0" resolved="1">
+          <testtype>Hard</testtype>
+          <teststatus>Old</teststatus>
+        </summary>
+        <clashresults>
+          <clashresult name="Clash1" guid="97a60024-d641-4c9b-9009-6868da20d421" status="active">
+            <description>Hard</description>
+            <resultstatus>Active</resultstatus>
+            <clashpoint>
+              <pos3f x="271.329" y="-224.047" z="26.074"/>
+            </clashpoint>
+            <gridlocation>K-1 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="2" day="19" hour="17" minute="37" second="36"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>11295821</value>
+                </objectattribute>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>9231183</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash2" guid="7d541d5f-08a9-4693-a87b-cafe2da6f3c9" status="resolved">
+            <description>Hard</description>
+            <resultstatus>Resolved</resultstatus>
+            <clashpoint>
+              <pos3f x="342.099" y="-214.032" z="26.280"/>
+            </clashpoint>
+            <gridlocation>M-2 : LEVEL 1</gridlocation>
+            <createddate>
+              <date year="2020" month="2" day="19" hour="17" minute="37" second="36"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>11295811</value>
+                </objectattribute>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+        </clashresults>
+      </clashtest>
+    </clashtests>
+    <selectionsets/>
+  </batchtest>
+</exchange>

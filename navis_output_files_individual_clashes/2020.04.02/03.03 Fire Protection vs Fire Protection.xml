@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<exchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" units="ft" filename="" filepath="">
+  <batchtest name="Report" internal_name="Report" units="ft">
+    <clashtests>
+      <clashtest name="03.03 Fire Protection vs Fire Protection" test_type="hard" status="new" tolerance="0.021" merge_composites="1">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Clash Batches/Fire</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Clash Batches/Fire</locator>
+          </clashselection>
+        </right>
+        <rules>
+          <rule name="Items in same group/block/cell" enabled="1" creator="lcop_clash_adapator_for_lcodpclash_ignore_same_group">
+            <ruleparams/>
+          </rule>
+          <rule name="Items with coincident snap points" enabled="1" creator="lcop_clash_adapator_for_lcodpclash_ignore_coincident_snap_points">
+            <ruleparams/>
+          </rule>
+        </rules>
+        <summary total="0" new="0" active="0" reviewed="0" approved="0" resolved="0">
+          <testtype>Hard</testtype>
+          <teststatus>New</teststatus>
+        </summary>
+        <clashresults/>
+      </clashtest>
+    </clashtests>
+    <selectionsets/>
+  </batchtest>
+</exchange>
