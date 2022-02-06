@@ -33,13 +33,14 @@ def tests(number, test_file, results_date):
                 #print (clash_info)
             if elem.tag=='parentgroup':
                 p_group = elem.text
-                clash_info.append(p_group)
+                #clash_info.append(p_group)
                 elem_present.append('parent_group')
                 #print (p_group)           
             if elem.tag=='date':
                 created_date = [elem.get('year'), elem.get('month'), elem.get('day')]
                 clean_date = '{}.{}.{}'.format(created_date[0],created_date[1].zfill(2) ,created_date[2].zfill(2))
-                clash_info.append(clean_date)
+                #clash_info.append(clean_date)
+                elem_present.append('created_date')
                 #print (clean_date)
             if elem.tag=='objectattribute':
                 for obj in elem:
@@ -48,22 +49,43 @@ def tests(number, test_file, results_date):
                         clash_info.append(elem_ids)
                         elem_present.append('element_id')
                         #print (elem_ids)
+            if elem.tag=='assignedto':
+                assign_to=elem.text
+                #clash_info.append(assign_to)
+                elem_present.append('assigned_to')
+                
 
 
         #print (elem_present.count('element_id'))
-        if 'parent_group' not in elem_present:
-            clash_info.insert(3, 'NO_GROUP')
         if elem_present.count('element_id') == 1:
-            clash_info.insert(6, 'NO_ID')
+            clash_info.insert(4, 'NO_ID')
+            
         if elem_present.count('element_id') == 0:
-            clash_info.insert(5, 'NO_ID')
-            clash_info.insert(6, 'NO_ID')
+            clash_info.insert(3, 'NO_ID')
+            clash_info.insert(4, 'NO_ID')
+                
+        if 'parent_group' in elem_present:
+            clash_info.append(p_group)
+        else:
+            clash_info.append('NO_GROUP')
+
+        if 'created_date' in elem_present:
+            clash_info.append(clean_date)
+        else:
+            clash_info.append('No_Date')
+            
+        if 'assigned_to' in elem_present:
+            clash_info.append(assign_to)
+        else:
+            clash_info.append('NO_Assignee')
+        
+
         
         #now = datetime.datetime.now()
         #clash_report_date = now.strftime('%Y.%m.%d')
         clash_info.append(results_date)
 
         clash_info.append(number)
-    
+
         clash_list.append(clash_info)
     

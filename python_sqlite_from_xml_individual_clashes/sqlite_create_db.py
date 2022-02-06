@@ -62,10 +62,11 @@ def create_clash_table():
                                         guid text NOT NULL,
                                         clash_id text NOT NULL,
                                         status text NOT NULL,
+                                        element_id_1 text NOT NULL,
+                                        element_id_2 text NOT NULL,
                                         parent_group text NOT NULL,
                                         created_date text NOT NULL,
-                                        element_id_1 text NOT NULL,
-                                        element_id_2 text NOT NULL,                                        
+                                        assigned_to text NOT NULL,
                                         test_date text NOT NULL,
                                         test_id text NOT NULL
                                     ); """

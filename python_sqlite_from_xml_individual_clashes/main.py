@@ -39,18 +39,18 @@ def create_connection(db_file):
     return conn
 
 
-tests = [('00.00', 'Structural vs Structural'), ('00.01', 'Structural vs Architectural'), ('00.02', 'Structural vs Equipment'), ('00.03', 'Structural vs Fire Protection'),
-         ('00.04', 'Structural vs HVAC'), ('00.05', 'Structural vs Piping Mechanical'), ('00.06', 'Structural vs Plumbing'), ('00.07', 'Structural vs Piping Process'), ('00.08', 'Structural vs Electrical'),
-         ('01.02', 'Architectural vs Equipment'), ('01.03', 'Architectural vs Fire Protection'),('01.04', 'Architectural vs HVAC'), ('01.05', 'Architectural vs Piping Mechanical'),
-         ('01.06', 'Architectural vs Plumbing'), ('01.07', 'Architectural vs Piping Process'), ('01.08', 'Architectural vs Electrical'),
-         ('02.03', 'Equipment vs Fire Protection'), ('02.04', 'Equipment vs HVAC'), ('02.05', 'Equipment vs Piping Mechanical'), ('02.06', 'Equipment vs Plumbing'),
-         ('02.07', 'Equipment vs Piping Process'),('02.08', 'Equipment vs Electrical'),
-         ('03.03', 'Fire Protection vs Fire Protection'), ('03.04', 'Fire Protection vs HVAC'), ('03.05', 'Fire Protection vs Piping Mechanical'), ('03.06', 'Fire Protection vs Plumbing'),
-         ('03.07', 'Fire Protection vs Piping Process'), ('03.08', 'Fire Protection vs Electrical'),
-         ('04.04', 'HVAC vs HVAC'), ('04.05', 'HVAC vs Piping Mechanical'), ('04.06', 'HVAC vs Plumbing'), ('04.07', 'HVAC vs Piping Process'), ('04.08', 'HVAC vs Electrical'),
-         ('05.05', 'Piping Mechanical vs Piping Mechanical'), ('05.06', 'Piping Mechanical vs Plumbing'), ('05.07', 'Piping Mechanical vs Piping Process'), ('05.08', 'Piping Mechanical vs Electrical'),
-         ('06.06', 'Plumbing vs Plumbing'), ('06.07', 'Plumbing vs Piping Process'), ('06.08', 'Plumbing vs Electrical'),
-         ('07.07', 'Piping Process vs Piping Process'), ('07.08', 'Piping Process vs Electrical'),
+tests = [('00.00', 'Structural vs Structural'), ('00.01', 'Structural vs Architectural'), ('00.02', 'Structural vs Equipment'), ('00.03', 'Structural vs Process Piping'),
+         ('00.04', 'Structural vs HVAC'), ('00.05', 'Structural vs Mechanical Piping'), ('00.06', 'Structural vs Fire Protection'), ('00.07', 'Structural vs Plumbing'), ('00.08', 'Structural vs Electrical'),
+         ('01.02', 'Architectural vs Equipment'), ('01.03', 'Architectural vs Process Piping'),('01.04', 'Architectural vs HVAC'), ('01.05', 'Architectural vs Mechanical Piping'),
+         ('01.06', 'Architectural vs Fire Protection'), ('01.07', 'Architectural vs Plumbing'), ('01.08', 'Architectural vs Electrical'), ('02.02', 'Equipment vs Equipment'),
+         ('02.03', 'Equipment vs Process Piping'), ('02.04', 'Equipment vs HVAC'), ('02.05', 'Equipment vs Mechanical Piping'), ('02.06', 'Equipment vs Fire Protection'),
+         ('02.07', 'Equipment vs Plumbing'),('02.08', 'Equipment vs Electrical'),
+         ('03.03', 'Process Piping vs Process Piping'), ('03.04', 'Process Piping vs HVAC'), ('03.05', 'Process Piping vs Mechanical Piping'), ('03.06', 'Process Piping vs Fire Protection'),
+         ('03.07', 'Process Piping vs Plumbing'), ('03.08', 'Process Piping vs Electrical'),
+         ('04.04', 'HVAC vs HVAC'), ('04.05', 'HVAC vs Mechanical Piping'), ('04.06', 'HVAC vs Fire Protection'), ('04.07', 'HVAC vs Plumbing'), ('04.08', 'HVAC vs Electrical'),
+         ('05.05', 'Mechanical Piping vs Mechanical Piping'), ('05.06', 'Mechanical Piping vs Fire Protection'), ('05.07', 'Mechanical Piping vs Plumbing'), ('05.08', 'Mechanical Piping vs Electrical'),
+         ('06.06', 'Fire Protection vs Fire Protection'), ('06.07', 'Fire Protection vs Plumbing'), ('06.08', 'Fire Protection vs Electrical'),
+         ('07.07', 'Plumbing vs Plumbing'), ('07.08', 'Plumbing vs Electrical'),
          ('08.08', 'Electrical vs Electrical')]
 
 #tests = [('00.08', 'Structural vs Electrical')]
@@ -117,7 +117,7 @@ if __name__ == '__main__':
     print (len(clash_list))
     test_list = []
     for item in clash_list:
-        if len(item) != 9:
+        if len(item) != 10:
             test_list.append(item)
     print (test_list)
 
